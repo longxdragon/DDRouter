@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA140B71E126A2D00102735 /* DDRouterMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA140B61E126A2D00102735 /* DDRouterMap.m */; };
+		3DCAC5521E134FCD0004E9C1 /* NSObject+DDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5511E134FCD0004E9C1 /* NSObject+DDRouter.m */; };
+		3DCAC5551E1351530004E9C1 /* DDMainRouterMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */; };
+		3DCAC5581E1351B40004E9C1 /* AModuleRouterMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */; };
+		3DCAC55B1E1352380004E9C1 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC55A1E1352380004E9C1 /* AViewController.m */; };
+		3DF4DE7D1E0CF2E2007E9899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE7C1E0CF2E2007E9899 /* main.m */; };
+		3DF4DE801E0CF2E2007E9899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE7F1E0CF2E2007E9899 /* AppDelegate.m */; };
+		3DF4DE831E0CF2E2007E9899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE821E0CF2E2007E9899 /* ViewController.m */; };
+		3DF4DE861E0CF2E2007E9899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF4DE841E0CF2E2007E9899 /* Main.storyboard */; };
+		3DF4DE881E0CF2E2007E9899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF4DE871E0CF2E2007E9899 /* Assets.xcassets */; };
+		3DF4DE8B1E0CF2E2007E9899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF4DE891E0CF2E2007E9899 /* LaunchScreen.storyboard */; };
+		3DF4DE961E0CF2E2007E9899 /* DDRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE951E0CF2E2007E9899 /* DDRouterTests.m */; };
+		3DF4DEA11E0CF2E2007E9899 /* DDRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DEA01E0CF2E2007E9899 /* DDRouterUITests.m */; };
+		3DF4DEB11E0CF4B6007E9899 /* DDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DEB01E0CF4B6007E9899 /* DDRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF4DE921E0CF2E2007E9899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF4DE701E0CF2E1007E9899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF4DE771E0CF2E2007E9899;
+			remoteInfo = DDRouter;
+		};
+		3DF4DE9D1E0CF2E2007E9899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF4DE701E0CF2E1007E9899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF4DE771E0CF2E2007E9899;
+			remoteInfo = DDRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA140B51E126A2D00102735 /* DDRouterMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRouterMap.h; sourceTree = "<group>"; };
+		3DA140B61E126A2D00102735 /* DDRouterMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRouterMap.m; sourceTree = "<group>"; };
+		3DCAC5501E134FCD0004E9C1 /* NSObject+DDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DDRouter.h"; sourceTree = "<group>"; };
+		3DCAC5511E134FCD0004E9C1 /* NSObject+DDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DDRouter.m"; sourceTree = "<group>"; };
+		3DCAC5531E1351530004E9C1 /* DDMainRouterMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainRouterMap.h; sourceTree = "<group>"; };
+		3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainRouterMap.m; sourceTree = "<group>"; };
+		3DCAC5561E1351B40004E9C1 /* AModuleRouterMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AModuleRouterMap.h; sourceTree = "<group>"; };
+		3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AModuleRouterMap.m; sourceTree = "<group>"; };
+		3DCAC5591E1352380004E9C1 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AViewController.h; path = DDRouter/AViewController.h; sourceTree = "<group>"; };
+		3DCAC55A1E1352380004E9C1 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AViewController.m; path = DDRouter/AViewController.m; sourceTree = "<group>"; };
+		3DF4DE781E0CF2E2007E9899 /* DDRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF4DE7C1E0CF2E2007E9899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF4DE7E1E0CF2E2007E9899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DF4DE7F1E0CF2E2007E9899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DF4DE811E0CF2E2007E9899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DF4DE821E0CF2E2007E9899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DF4DE851E0CF2E2007E9899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF4DE871E0CF2E2007E9899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF4DE8A1E0CF2E2007E9899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF4DE8C1E0CF2E2007E9899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF4DE911E0CF2E2007E9899 /* DDRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF4DE951E0CF2E2007E9899 /* DDRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDRouterTests.m; sourceTree = "<group>"; };
+		3DF4DE971E0CF2E2007E9899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF4DE9C1E0CF2E2007E9899 /* DDRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF4DEA01E0CF2E2007E9899 /* DDRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDRouterUITests.m; sourceTree = "<group>"; };
+		3DF4DEA21E0CF2E2007E9899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF4DEAF1E0CF4B6007E9899 /* DDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRouter.h; sourceTree = "<group>"; };
+		3DF4DEB01E0CF4B6007E9899 /* DDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRouter.m; sourceTree = "<group>"; };
+		3DF4DEB21E0D026D007E9899 /* DDRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDRouterProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF4DE751E0CF2E2007E9899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE8E1E0CF2E2007E9899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE991E0CF2E2007E9899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF4DE6F1E0CF2E1007E9899 = {
+			isa = PBXGroup;
+			children = (
+				3DF4DE7A1E0CF2E2007E9899 /* DDRouter */,
+				3DF4DE941E0CF2E2007E9899 /* DDRouterTests */,
+				3DF4DE9F1E0CF2E2007E9899 /* DDRouterUITests */,
+				3DF4DE791E0CF2E2007E9899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF4DE791E0CF2E2007E9899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DE781E0CF2E2007E9899 /* DDRouter.app */,
+				3DF4DE911E0CF2E2007E9899 /* DDRouterTests.xctest */,
+				3DF4DE9C1E0CF2E2007E9899 /* DDRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF4DE7A1E0CF2E2007E9899 /* DDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DEAE1E0CF482007E9899 /* DDRouter */,
+				3DF4DE7E1E0CF2E2007E9899 /* AppDelegate.h */,
+				3DF4DE7F1E0CF2E2007E9899 /* AppDelegate.m */,
+				3DF4DE811E0CF2E2007E9899 /* ViewController.h */,
+				3DF4DE821E0CF2E2007E9899 /* ViewController.m */,
+				3DF4DE841E0CF2E2007E9899 /* Main.storyboard */,
+				3DF4DE871E0CF2E2007E9899 /* Assets.xcassets */,
+				3DF4DE891E0CF2E2007E9899 /* LaunchScreen.storyboard */,
+				3DF4DE8C1E0CF2E2007E9899 /* Info.plist */,
+				3DF4DE7B1E0CF2E2007E9899 /* Supporting Files */,
+				3DCAC5531E1351530004E9C1 /* DDMainRouterMap.h */,
+				3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */,
+				3DCAC5561E1351B40004E9C1 /* AModuleRouterMap.h */,
+				3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */,
+				3DCAC5591E1352380004E9C1 /* AViewController.h */,
+				3DCAC55A1E1352380004E9C1 /* AViewController.m */,
+			);
+			path = DDRouter;
+			sourceTree = "<group>";
+		};
+		3DF4DE7B1E0CF2E2007E9899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DE7C1E0CF2E2007E9899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF4DE941E0CF2E2007E9899 /* DDRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DE951E0CF2E2007E9899 /* DDRouterTests.m */,
+				3DF4DE971E0CF2E2007E9899 /* Info.plist */,
+			);
+			path = DDRouterTests;
+			sourceTree = "<group>";
+		};
+		3DF4DE9F1E0CF2E2007E9899 /* DDRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DEA01E0CF2E2007E9899 /* DDRouterUITests.m */,
+				3DF4DEA21E0CF2E2007E9899 /* Info.plist */,
+			);
+			path = DDRouterUITests;
+			sourceTree = "<group>";
+		};
+		3DF4DEAE1E0CF482007E9899 /* DDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4DEAF1E0CF4B6007E9899 /* DDRouter.h */,
+				3DF4DEB01E0CF4B6007E9899 /* DDRouter.m */,
+				3DF4DEB21E0D026D007E9899 /* DDRouterProtocol.h */,
+				3DA140B51E126A2D00102735 /* DDRouterMap.h */,
+				3DA140B61E126A2D00102735 /* DDRouterMap.m */,
+				3DCAC5501E134FCD0004E9C1 /* NSObject+DDRouter.h */,
+				3DCAC5511E134FCD0004E9C1 /* NSObject+DDRouter.m */,
+			);
+			path = DDRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF4DE771E0CF2E2007E9899 /* DDRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4DEA51E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouter" */;
+			buildPhases = (
+				3DF4DE741E0CF2E2007E9899 /* Sources */,
+				3DF4DE751E0CF2E2007E9899 /* Frameworks */,
+				3DF4DE761E0CF2E2007E9899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDRouter;
+			productName = DDRouter;
+			productReference = 3DF4DE781E0CF2E2007E9899 /* DDRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF4DE901E0CF2E2007E9899 /* DDRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4DEA81E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouterTests" */;
+			buildPhases = (
+				3DF4DE8D1E0CF2E2007E9899 /* Sources */,
+				3DF4DE8E1E0CF2E2007E9899 /* Frameworks */,
+				3DF4DE8F1E0CF2E2007E9899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF4DE931E0CF2E2007E9899 /* PBXTargetDependency */,
+			);
+			name = DDRouterTests;
+			productName = DDRouterTests;
+			productReference = 3DF4DE911E0CF2E2007E9899 /* DDRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DF4DE9B1E0CF2E2007E9899 /* DDRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4DEAB1E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouterUITests" */;
+			buildPhases = (
+				3DF4DE981E0CF2E2007E9899 /* Sources */,
+				3DF4DE991E0CF2E2007E9899 /* Frameworks */,
+				3DF4DE9A1E0CF2E2007E9899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF4DE9E1E0CF2E2007E9899 /* PBXTargetDependency */,
+			);
+			name = DDRouterUITests;
+			productName = DDRouterUITests;
+			productReference = 3DF4DE9C1E0CF2E2007E9899 /* DDRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF4DE701E0CF2E1007E9899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = longxdragon;
+				TargetAttributes = {
+					3DF4DE771E0CF2E2007E9899 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3DF4DE901E0CF2E2007E9899 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DF4DE771E0CF2E2007E9899;
+					};
+					3DF4DE9B1E0CF2E2007E9899 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DF4DE771E0CF2E2007E9899;
+					};
+				};
+			};
+			buildConfigurationList = 3DF4DE731E0CF2E1007E9899 /* Build configuration list for PBXProject "DDRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF4DE6F1E0CF2E1007E9899;
+			productRefGroup = 3DF4DE791E0CF2E2007E9899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF4DE771E0CF2E2007E9899 /* DDRouter */,
+				3DF4DE901E0CF2E2007E9899 /* DDRouterTests */,
+				3DF4DE9B1E0CF2E2007E9899 /* DDRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF4DE761E0CF2E2007E9899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4DE8B1E0CF2E2007E9899 /* LaunchScreen.storyboard in Resources */,
+				3DF4DE881E0CF2E2007E9899 /* Assets.xcassets in Resources */,
+				3DF4DE861E0CF2E2007E9899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE8F1E0CF2E2007E9899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE9A1E0CF2E2007E9899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF4DE741E0CF2E2007E9899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4DE831E0CF2E2007E9899 /* ViewController.m in Sources */,
+				3DF4DE801E0CF2E2007E9899 /* AppDelegate.m in Sources */,
+				3DCAC5551E1351530004E9C1 /* DDMainRouterMap.m in Sources */,
+				3DCAC5581E1351B40004E9C1 /* AModuleRouterMap.m in Sources */,
+				3DCAC5521E134FCD0004E9C1 /* NSObject+DDRouter.m in Sources */,
+				3DF4DEB11E0CF4B6007E9899 /* DDRouter.m in Sources */,
+				3DCAC55B1E1352380004E9C1 /* AViewController.m in Sources */,
+				3DF4DE7D1E0CF2E2007E9899 /* main.m in Sources */,
+				3DA140B71E126A2D00102735 /* DDRouterMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE8D1E0CF2E2007E9899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4DE961E0CF2E2007E9899 /* DDRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF4DE981E0CF2E2007E9899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4DEA11E0CF2E2007E9899 /* DDRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF4DE931E0CF2E2007E9899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF4DE771E0CF2E2007E9899 /* DDRouter */;
+			targetProxy = 3DF4DE921E0CF2E2007E9899 /* PBXContainerItemProxy */;
+		};
+		3DF4DE9E1E0CF2E2007E9899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF4DE771E0CF2E2007E9899 /* DDRouter */;
+			targetProxy = 3DF4DE9D1E0CF2E2007E9899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF4DE841E0CF2E2007E9899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF4DE851E0CF2E2007E9899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF4DE891E0CF2E2007E9899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF4DE8A1E0CF2E2007E9899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF4DEA31E0CF2E2007E9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF4DEA41E0CF2E2007E9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF4DEA61E0CF2E2007E9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF4DEA71E0CF2E2007E9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF4DEA91E0CF2E2007E9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDRouter.app/DDRouter";
+			};
+			name = Debug;
+		};
+		3DF4DEAA1E0CF2E2007E9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDRouter.app/DDRouter";
+			};
+			name = Release;
+		};
+		3DF4DEAC1E0CF2E2007E9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DDRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DDRouter;
+			};
+			name = Debug;
+		};
+		3DF4DEAD1E0CF2E2007E9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DDRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longxdragon.DDRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DDRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF4DE731E0CF2E1007E9899 /* Build configuration list for PBXProject "DDRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4DEA31E0CF2E2007E9899 /* Debug */,
+				3DF4DEA41E0CF2E2007E9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF4DEA51E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4DEA61E0CF2E2007E9899 /* Debug */,
+				3DF4DEA71E0CF2E2007E9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF4DEA81E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4DEA91E0CF2E2007E9899 /* Debug */,
+				3DF4DEAA1E0CF2E2007E9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF4DEAB1E0CF2E2007E9899 /* Build configuration list for PBXNativeTarget "DDRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4DEAC1E0CF2E2007E9899 /* Debug */,
+				3DF4DEAD1E0CF2E2007E9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF4DE701E0CF2E1007E9899 /* Project object */;
+}
