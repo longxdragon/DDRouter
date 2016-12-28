@@ -11,7 +11,7 @@
 		3DCAC5521E134FCD0004E9C1 /* NSObject+DDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5511E134FCD0004E9C1 /* NSObject+DDRouter.m */; };
 		3DCAC5551E1351530004E9C1 /* DDMainRouterMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */; };
 		3DCAC5581E1351B40004E9C1 /* AModuleRouterMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */; };
-		3DCAC55B1E1352380004E9C1 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC55A1E1352380004E9C1 /* AViewController.m */; };
+		3DCAC55E1E1385F50004E9C1 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAC55D1E1385F50004E9C1 /* AViewController.m */; };
 		3DF4DE7D1E0CF2E2007E9899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE7C1E0CF2E2007E9899 /* main.m */; };
 		3DF4DE801E0CF2E2007E9899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE7F1E0CF2E2007E9899 /* AppDelegate.m */; };
 		3DF4DE831E0CF2E2007E9899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4DE821E0CF2E2007E9899 /* ViewController.m */; };
@@ -49,8 +49,8 @@
 		3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainRouterMap.m; sourceTree = "<group>"; };
 		3DCAC5561E1351B40004E9C1 /* AModuleRouterMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AModuleRouterMap.h; sourceTree = "<group>"; };
 		3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AModuleRouterMap.m; sourceTree = "<group>"; };
-		3DCAC5591E1352380004E9C1 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AViewController.h; path = DDRouter/AViewController.h; sourceTree = "<group>"; };
-		3DCAC55A1E1352380004E9C1 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AViewController.m; path = DDRouter/AViewController.m; sourceTree = "<group>"; };
+		3DCAC55C1E1385F50004E9C1 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		3DCAC55D1E1385F50004E9C1 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		3DF4DE781E0CF2E2007E9899 /* DDRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF4DE7C1E0CF2E2007E9899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DF4DE7E1E0CF2E2007E9899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +120,8 @@
 		3DF4DE7A1E0CF2E2007E9899 /* DDRouter */ = {
 			isa = PBXGroup;
 			children = (
+				3DCAC55C1E1385F50004E9C1 /* AViewController.h */,
+				3DCAC55D1E1385F50004E9C1 /* AViewController.m */,
 				3DF4DEAE1E0CF482007E9899 /* DDRouter */,
 				3DF4DE7E1E0CF2E2007E9899 /* AppDelegate.h */,
 				3DF4DE7F1E0CF2E2007E9899 /* AppDelegate.m */,
@@ -134,8 +136,6 @@
 				3DCAC5541E1351530004E9C1 /* DDMainRouterMap.m */,
 				3DCAC5561E1351B40004E9C1 /* AModuleRouterMap.h */,
 				3DCAC5571E1351B40004E9C1 /* AModuleRouterMap.m */,
-				3DCAC5591E1352380004E9C1 /* AViewController.h */,
-				3DCAC55A1E1352380004E9C1 /* AViewController.m */,
 			);
 			path = DDRouter;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 				3DCAC5581E1351B40004E9C1 /* AModuleRouterMap.m in Sources */,
 				3DCAC5521E134FCD0004E9C1 /* NSObject+DDRouter.m in Sources */,
 				3DF4DEB11E0CF4B6007E9899 /* DDRouter.m in Sources */,
-				3DCAC55B1E1352380004E9C1 /* AViewController.m in Sources */,
+				3DCAC55E1E1385F50004E9C1 /* AViewController.m in Sources */,
 				3DF4DE7D1E0CF2E2007E9899 /* main.m in Sources */,
 				3DA140B71E126A2D00102735 /* DDRouterMap.m in Sources */,
 			);
