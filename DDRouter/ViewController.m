@@ -21,15 +21,17 @@
 }
 
 - (IBAction)jump:(id)sender {
-    BOOL islogin = YES;
-    [[DDRouter shareRouter] openUrl:@"gkoudai://a/avc" toHandle:^(UIViewController *viewController) {
-        if (islogin) {
-            [self.navigationController pushViewController:viewController animated:YES];
-        } else {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"您还没登陆，请先登陆？" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-            [alert show];
-        }
-    }];
+//    BOOL islogin = YES;
+//    [[DDRouter shareRouter] openUrl:@"gkoudai://a/avc" toHandle:^(UIViewController *viewController) {
+//        if (islogin) {
+//            [self.navigationController pushViewController:viewController animated:YES];
+//        } else {
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"您还没登陆，请先登陆？" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+//            [alert show];
+//        }
+//    }];
+    
+    [[DDRouter shareRouter] openUrl:@"gkoudai://a/avc" toHandle:nil];
 }
 
 @end

@@ -92,6 +92,16 @@
                 handle(vc);
             });
         }
+    } else {
+        if (vc && [vc isKindOfClass:[UIViewController class]]) {
+            UIViewController *rootViewController = [self appRootViewController];
+            if (!rootViewController) return;
+            if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+                [(UINavigationController *)rootViewController pushViewController:vc animated:YES];
+            } else {
+                [rootViewController presentViewController:vc animated:YES completion:nil];
+            }
+        }
     }
 }
 
@@ -115,6 +125,10 @@
         }
     }
     return [NSDictionary dictionaryWithDictionary:pairs];
+}
+
+- (UIViewController *)appRootViewController {
+    return [UIApplication sharedApplication].keyWindow.rootViewController;
 }
 
 @end
