@@ -128,7 +128,7 @@
 }
 
 - (UIViewController *)appRootViewController {
-    return [UIApplication sharedApplication].keyWindow.rootViewController;
+    return [UIApplication sharedApplication].delegate.window.rootViewController;
 }
 
 @end
