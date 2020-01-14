@@ -9,9 +9,19 @@
 #import "DDRouter.h"
 #import "NSObject+DDRouter.h"
 
+@interface DDRouterHandler : NSObject
+@property (nonatomic, copy) void (^callback)(NSDictionary *params);
+@end
+
+@implementation DDRouterHandler
+
+@end
+
+
 @implementation DDRouter {
     NSString *_mainHost;
     DDRouterMap *_mapper;
+    NSMutableDictionary *_customMapper;
 }
 
 + (DDRouter *)shareRouter {
@@ -26,6 +36,15 @@
 - (void)configueMainHost:(NSString *)mainHost mapper:(DDRouterMap *)mapper {
     _mainHost = [mainHost copy];
     _mapper = mapper;
+    _customMapper = [NSMutableDictionary new];
+}
+
+- (void)addEventName:(NSString *)name callback:(void (^)(NSDictionary *params))callback {
+    if (name.length && callback) {
+        DDRouterHandler *h = [DDRouterHandler new];
+        h.callback = callback;
+        _customMapper[name] = h;
+    }
 }
 
 - (void)openUrl:(NSString *)urlString {
@@ -56,7 +75,15 @@
         queryDic = [params copy];
     }
     if ([scheme isEqualToString:_mainHost]) {
-        // 主模块的映射
+        // Custom event jump action
+        if (host && _customMapper[host]) {
+            DDRouterHandler *h = _customMapper[host];
+            if (h.callback) {
+                h.callback(queryDic);
+            }
+            return;
+        }
+        // Main module map
         NSDictionary *routerMapDic;
         if ([[_mapper class] respondsToSelector:@selector(mainRouterPathMapDictionary)]) {
             routerMapDic = [[_mapper class] mainRouterPathMapDictionary];
@@ -64,7 +91,7 @@
         }
         NSString *moduleName = [routerMapDic objectForKey:host];
         if (moduleName) {
-            // 需要分模块
+            // Sub module map
             Class moduleRouterMap = NSClassFromString(moduleName);
             id<DDRouterProtocol> module = [[moduleRouterMap alloc] init];
             if ([[module class] respondsToSelector:@selector(subRouterPathMapDictionary)]) {
@@ -73,7 +100,7 @@
                 [self jumpToPath:className params:queryDic toHandle:handle];
             }
         } else {
-            // 不需要分模块
+            // None module just jump
             [self jumpToPath:host params:queryDic toHandle:handle];
         }
     }
@@ -84,7 +111,7 @@
     if ((!className || className.length == 0) && params == nil) return;
     Class t_class = NSClassFromString(className);
     id vc = [[t_class alloc] init];
-    // 设置属性
+    // Set properties
     [vc router_setPropertiesByDictionary:params];
     if (handle) {
         if (vc && [vc isKindOfClass:[UIViewController class]]) {

@@ -20,7 +20,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [[DDRouter shareRouter] configueMainHost:@"gkoudai" mapper:[DDMainRouterMap new]];
+    [[DDRouter shareRouter] configueMainHost:@"dd" mapper:[DDMainRouterMap new]];
+    [[DDRouter shareRouter] addEventName:@"share" callback:^(NSDictionary *params) {
+        NSString *txt = params[@"txt"];
+        if (txt) {
+            // custom event
+            NSLog(@"share txt : %@", txt);
+        }
+    }];
     
     return YES;
 }

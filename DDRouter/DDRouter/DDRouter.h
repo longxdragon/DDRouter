@@ -16,6 +16,8 @@
 
 - (void)configueMainHost:(NSString *)mainHost mapper:(DDRouterMap *)mapper;
 
+- (void)addEventName:(NSString *)name callback:(void (^)(NSDictionary *params))callback;
+
 - (void)openUrl:(NSString *)urlString;
 
 - (void)openUrl:(NSString *)urlString toHandle:(void(^)(UIViewController *viewController))handle;

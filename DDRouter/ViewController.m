@@ -31,7 +31,9 @@
 //        }
 //    }];
     
-    [[DDRouter shareRouter] openUrl:@"gkoudai://a/avc" toHandle:nil];
+//    [[DDRouter shareRouter] openUrl:@"dd://a/avc" toHandle:nil];
+    
+    [[DDRouter shareRouter] openUrl:@"dd://share?txt=abc"];
 }
 
 @end
